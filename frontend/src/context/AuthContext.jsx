@@ -1,4 +1,3 @@
-import React from 'react'
 import { createContext } from 'react'
 export const authDataContext= createContext()
 function AuthContext({children}) {
@@ -7,6 +6,7 @@ function AuthContext({children}) {
     let value = {
        serverUrl
     }
+    
   return (
 
     
